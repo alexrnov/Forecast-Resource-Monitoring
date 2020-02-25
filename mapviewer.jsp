@@ -9,9 +9,7 @@
 
 <html>
   <head>
-  
-    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" > 
-    
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
     <title>monitoring</title>
     
     <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7"/>
@@ -20,11 +18,6 @@
     <link rel="stylesheet" href="css/adf.css" type="text/css"></link>
     <link rel="stylesheet" href="css/wma.css" type="text/css"></link>
     <link rel="stylesheet" href="css/themes/aqua/aqua.css" type="text/css"></link>  
-    
-    
-    
-    
-    
     
     <style  type="text/css" media="all">
      /*Стили для окна выбора и загрузки карт*/
@@ -887,9 +880,6 @@
 		}
     </script>
 
-
-
-
   </head>
 
   <f:view>
@@ -953,9 +943,7 @@
 				<h:commandButton value="Найти объект" action="#{search.selectObj}"/>
 			</div>
       </div>
-      
-      
-      
+            
         <div id="layoutContainer">
           
         </div>
@@ -1052,11 +1040,7 @@
             
           <!--  Application Tasks Content -->
           <div id="task-menu" class="tasks-menu">
-            <ul>
-            
-             
-          
-            
+            <ul>      
             <li class="menu-bar">
                
 				<a:toolbar id="toolbar2" toolbarStyle="TEXTONLY" mapId="map1" activeTool="SelectRayon">
@@ -1068,8 +1052,7 @@
 				</a:toolbar>
 			 
               </li>
-            
-          
+           
     		  <li class="menu-bar">
 			  <a href="#" class="menu-header" onClick="visible_sr(document.getElementById('div1'));">
               <span>Открыть</span>
